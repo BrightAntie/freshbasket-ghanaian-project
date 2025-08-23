@@ -13,7 +13,7 @@ const Home = () => {
     {
       icon: Search,
       title: 'Browse Recipes',
-      description: 'Discover delicious Nigerian recipes with fresh ingredient lists'
+      description: 'Discover delicious Ghanaian recipes with fresh ingredient lists'
     },
     {
       icon: ShoppingBag,
@@ -42,12 +42,12 @@ const Home = () => {
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="hero-text animate-fade-in">
-            Fresh Nigerian Ingredients
+            Fresh Ghanaian Ingredients
             <br />
             <span className="text-primary-glow">Delivered to Your Door</span>
           </h1>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto animate-slide-up">
-            Discover authentic Nigerian recipes and get all the fresh ingredients 
+            Discover authentic Ghanaian recipes and get all the fresh ingredients 
             you need delivered straight to your kitchen.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-bounce-in">
@@ -74,7 +74,7 @@ const Home = () => {
               Featured Recipes
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover popular Nigerian dishes with fresh ingredients sourced from local suppliers
+              Discover popular Ghanaian dishes with fresh ingredients sourced from local suppliers
             </p>
           </div>
 
