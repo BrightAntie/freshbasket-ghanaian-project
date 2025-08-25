@@ -83,10 +83,10 @@ const Dashboard = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm text-muted-foreground">Total Spent</p>
-                  <p className="text-2xl font-bold text-accent">₦{stats.totalSpent.toLocaleString()}</p>
+                  <p className="text-2xl font-bold text-accent">₵{stats.totalSpent.toLocaleString()}</p>
                 </div>
                 <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
-                  <span className="text-accent font-bold">₦</span>
+                  <span className="text-accent font-bold">₵</span>
                 </div>
               </div>
             </CardContent>
@@ -165,7 +165,7 @@ const Dashboard = () => {
                             </div>
                             <div>
                               <p className="text-muted-foreground">Total</p>
-                              <p className="font-medium text-primary">₦{order.total.toLocaleString()}</p>
+                              <p className="font-medium text-primary">₵{order.total.toLocaleString()}</p>
                             </div>
                             <div className="flex justify-end">
                               <Button variant="ghost" size="sm" className="hover-lift">

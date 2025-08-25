@@ -173,7 +173,7 @@ const RecipeDetail = () => {
               <CardContent className="space-y-4">
                 <div className="text-center p-4 bg-muted/30 rounded-lg">
                   <p className="text-sm text-muted-foreground mb-1">Total Price</p>
-                  <p className="price-text">₦{totalPrice.toLocaleString()}</p>
+                  <p className="price-text">₵{totalPrice.toLocaleString()}</p>
                 </div>
                 
                 <Button className="w-full" variant="hero" size="lg">
@@ -218,7 +218,7 @@ const RecipeDetail = () => {
                                   )}
                                 </h4>
                                 <span className={`text-sm font-medium ${isSelected ? 'text-primary' : 'text-muted-foreground'}`}>
-                                  ₦{adjustedPrice.toLocaleString()}
+                                  ₵{adjustedPrice.toLocaleString()}
                                 </span>
                               </div>
                               

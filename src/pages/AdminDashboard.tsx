@@ -86,7 +86,7 @@ const AdminDashboard = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm text-muted-foreground">Total Revenue</p>
-                  <p className="text-2xl font-bold text-secondary">₦{stats.totalRevenue.toLocaleString()}</p>
+                  <p className="text-2xl font-bold text-secondary">₵{stats.totalRevenue.toLocaleString()}</p>
                   <p className="text-xs text-green-600 font-medium">+8% from last month</p>
                 </div>
                 <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
@@ -180,7 +180,7 @@ const AdminDashboard = () => {
                               {order.ingredients.length} items
                             </span>
                             <span className="font-medium text-primary">
-                              ₦{order.total.toLocaleString()}
+                              ₵{order.total.toLocaleString()}
                             </span>
                             {order.supplierName && (
                               <Badge variant="outline">

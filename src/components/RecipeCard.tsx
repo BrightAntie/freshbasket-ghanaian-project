@@ -58,7 +58,7 @@ export const RecipeCard = ({ recipe, showQuickAdd = false }: RecipeCardProps) =>
           <div className="flex items-center justify-between">
             <div>
               <span className="text-xs text-muted-foreground">Total ingredients</span>
-              <p className="price-text">₦{totalPrice.toLocaleString()}</p>
+              <p className="price-text">₵{totalPrice.toLocaleString()}</p>
             </div>
             <div className="text-right">
               <span className="text-xs text-muted-foreground">{recipe.ingredients.length} items</span>

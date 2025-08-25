@@ -135,7 +135,7 @@ const SupplierDashboard = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm text-muted-foreground">Total Earnings</p>
-                  <p className="text-2xl font-bold text-accent">₦{stats.totalEarnings.toLocaleString()}</p>
+                  <p className="text-2xl font-bold text-accent">₵{stats.totalEarnings.toLocaleString()}</p>
                 </div>
                 <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center">
                   <DollarSign className="h-6 w-6 text-accent" />
@@ -206,7 +206,7 @@ const SupplierDashboard = () => {
                                 <span className="text-muted-foreground">
                                   {ingredient.name} ({ingredient.quantity} {ingredient.unit})
                                 </span>
-                                <span className="font-medium">₦{ingredient.price.toLocaleString()}</span>
+                                <span className="font-medium">₵{ingredient.price.toLocaleString()}</span>
                               </div>
                             ))}
                           </div>
@@ -224,9 +224,9 @@ const SupplierDashboard = () => {
                             </div>
                             <div className="pt-2">
                               <p className="text-sm text-muted-foreground">Order Total</p>
-                              <p className="text-lg font-bold text-primary">₦{order.total.toLocaleString()}</p>
+                              <p className="text-lg font-bold text-primary">₵{order.total.toLocaleString()}</p>
                               <p className="text-xs text-muted-foreground">
-                                Your commission: ₦{(order.total * 0.15).toLocaleString()}
+                                Your commission: ₵{(order.total * 0.15).toLocaleString()}
                               </p>
                             </div>
                           </div>
@@ -240,7 +240,7 @@ const SupplierDashboard = () => {
                         <div className="flex items-center gap-2">
                           <Badge variant="outline">{order.ingredients.length} ingredients</Badge>
                           <Badge variant="outline" className="text-primary">
-                            ₦{(order.total * 0.15).toLocaleString()} commission
+                            ₵{(order.total * 0.15).toLocaleString()} commission
                           </Badge>
                         </div>
                         
